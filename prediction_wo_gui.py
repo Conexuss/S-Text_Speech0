@@ -5,6 +5,10 @@ import numpy as np
 from keras.models import load_model
 import traceback
 
+
+
+# Jupyter Notebook model load
+
 model = load_model('/cnn8grps_rad1_model.h5')
 white = np.ones((400, 400), np.uint8) * 255
 cv2.imwrite("C:\\Users\\devansh raval\\PycharmProjects\\pythonProject\\white.jpg", white)

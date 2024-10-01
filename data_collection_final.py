@@ -4,7 +4,7 @@ import numpy as np
 import os as oss
 import traceback
 
-
+# capture hand position
 
 capture = cv2.VideoCapture(0)
 hd = HandDetector(maxHands=1)

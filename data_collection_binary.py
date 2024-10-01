@@ -6,7 +6,7 @@ import os, os.path
 from keras.models import load_model
 import traceback
 
-
+# model loading
 
 #model = load_model('C:\\Users\\devansh raval\\PycharmProjects\\pythonProject\\cnn9.h5')
 
